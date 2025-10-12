@@ -44,7 +44,7 @@ export function CalculoImpuesto({
                     ${active ? 'bg-white' : 'bg-gray-200 cursor-not-allowed'}`}
             />
             
-            <p className={`${active ? 'text-black' : 'text-gray-400'}`}>
+            <p className={`${active ? 'text-foreground' : 'text-background'}`}>
                 $ {active ? impuestoCalculado.toFixed(2) : '0.00'}
             </p>
         </div>
