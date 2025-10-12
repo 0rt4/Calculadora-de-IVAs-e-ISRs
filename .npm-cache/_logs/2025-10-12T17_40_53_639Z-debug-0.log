@@ -1,0 +1,19 @@
+0 verbose cli /nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/bin/node /nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:/nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/orta/Documentos/GitHub/Calculadora de IVAs e ISRs/.npmrc
+5 silly config load:file:/home/orta/.npmrc
+6 silly config load:file:/nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/etc/npmrc
+7 verbose title npm ls next react react-dom
+8 verbose argv "ls" "next" "react" "react-dom"
+9 verbose logfile logs-max:10 dir:/home/orta/Documentos/GitHub/Calculadora de IVAs e ISRs/.npm-cache/_logs/2025-10-12T17_40_53_639Z-
+10 verbose logfile /home/orta/Documentos/GitHub/Calculadora de IVAs e ISRs/.npm-cache/_logs/2025-10-12T17_40_53_639Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 verbose cwd /home/orta/Documentos/GitHub/Calculadora de IVAs e ISRs
+14 verbose os Linux 6.12.51
+15 verbose node v20.19.5
+16 verbose npm  v10.8.2
+17 verbose exit 0
+18 info ok
