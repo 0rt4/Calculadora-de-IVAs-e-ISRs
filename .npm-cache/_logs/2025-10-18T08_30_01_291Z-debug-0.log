@@ -1,0 +1,1031 @@
+0 verbose cli /nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/bin/node /nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:/nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/.npmrc
+5 silly config load:file:/home/orta/.npmrc
+6 silly config load:file:/nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/etc/npmrc
+7 verbose title npm install @types/react @types/node
+8 verbose argv "install" "--save-exact" "--save-dev" "@types/react" "@types/node"
+9 verbose logfile logs-max:10 dir:/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/.npm-cache/_logs/2025-10-18T08_30_01_291Z-
+10 verbose logfile /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/.npm-cache/_logs/2025-10-18T08_30_01_291Z-debug-0.log
+11 silly packumentCache heap:4112515072 maxSize:1028128768 maxEntrySize:514064384
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @types/node@20.19.22
+16 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 40ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:10650814 disposed:false
+19 silly fetch manifest @types/react@19.2.2
+20 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@types%2freact 10ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2504314 disposed:false
+23 silly placeDep ROOT @types/node@20.19.22 REPLACE for: mi-app@0.1.0 want: 20.19.22
+24 silly placeDep ROOT @types/react@19.2.2 REPLACE for: mi-app@0.1.0 want: 19.2.2
+25 silly reify moves {}
+26 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-wasm32-wasi
+27 silly reify mark deleted [
+27 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-wasm32-wasi'
+27 silly reify ]
+28 silly audit bulk request {
+28 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+28 silly audit   '@emnapi/core': [ '1.5.0' ],
+28 silly audit   '@emnapi/runtime': [ '1.5.0' ],
+28 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+28 silly audit   '@eslint-community/eslint-utils': [ '4.9.0' ],
+28 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+28 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+28 silly audit   '@eslint/config-array': [ '0.21.0' ],
+28 silly audit   '@eslint/config-helpers': [ '0.4.0' ],
+28 silly audit   '@eslint/core': [ '0.16.0' ],
+28 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+28 silly audit   '@eslint/js': [ '9.37.0' ],
+28 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+28 silly audit   '@eslint/plugin-kit': [ '0.4.0' ],
+28 silly audit   '@humanfs/core': [ '0.19.1' ],
+28 silly audit   '@humanfs/node': [ '0.16.7' ],
+28 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+28 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+28 silly audit   '@img/colour': [ '1.0.0' ],
+28 silly audit   '@img/sharp-darwin-arm64': [ '0.34.4' ],
+28 silly audit   '@img/sharp-darwin-x64': [ '0.34.4' ],
+28 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.3' ],
+28 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.3' ],
+28 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.3' ],
+28 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.3' ],
+28 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.3' ],
+28 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.3' ],
+28 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.3' ],
+28 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.3' ],
+28 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.3' ],
+28 silly audit   '@img/sharp-linux-arm': [ '0.34.4' ],
+28 silly audit   '@img/sharp-linux-arm64': [ '0.34.4' ],
+28 silly audit   '@img/sharp-linux-ppc64': [ '0.34.4' ],
+28 silly audit   '@img/sharp-linux-s390x': [ '0.34.4' ],
+28 silly audit   '@img/sharp-linux-x64': [ '0.34.4' ],
+28 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.4' ],
+28 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.4' ],
+28 silly audit   '@img/sharp-wasm32': [ '0.34.4' ],
+28 silly audit   '@img/sharp-win32-arm64': [ '0.34.4' ],
+28 silly audit   '@img/sharp-win32-ia32': [ '0.34.4' ],
+28 silly audit   '@img/sharp-win32-x64': [ '0.34.4' ],
+28 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+28 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+28 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+28 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+28 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+28 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+28 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+28 silly audit   '@next/env': [ '15.5.4' ],
+28 silly audit   '@next/eslint-plugin-next': [ '15.5.4' ],
+28 silly audit   '@next/swc-darwin-arm64': [ '15.5.4' ],
+28 silly audit   '@next/swc-darwin-x64': [ '15.5.4' ],
+28 silly audit   '@next/swc-linux-arm64-gnu': [ '15.5.4' ],
+28 silly audit   '@next/swc-linux-arm64-musl': [ '15.5.4' ],
+28 silly audit   '@next/swc-linux-x64-gnu': [ '15.5.4' ],
+28 silly audit   '@next/swc-linux-x64-musl': [ '15.5.4' ],
+28 silly audit   '@next/swc-win32-arm64-msvc': [ '15.5.4' ],
+28 silly audit   '@next/swc-win32-x64-msvc': [ '15.5.4' ],
+28 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+28 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+28 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+28 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+28 silly audit   '@rtsao/scc': [ '1.1.0' ],
+28 silly audit   '@rushstack/eslint-patch': [ '1.13.0' ],
+28 silly audit   '@swc/helpers': [ '0.5.15' ],
+28 silly audit   '@tailwindcss/node': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.14' ],
+28 silly audit   '@tailwindcss/postcss': [ '4.1.14' ],
+28 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+28 silly audit   '@types/estree': [ '1.0.8' ],
+28 silly audit   '@types/json-schema': [ '7.0.15' ],
+28 silly audit   '@types/json5': [ '0.0.29' ],
+28 silly audit   '@types/react-dom': [ '19.2.1' ],
+28 silly audit   '@typescript-eslint/eslint-plugin': [ '8.46.0' ],
+28 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+28 silly audit   '@typescript-eslint/parser': [ '8.46.0' ],
+28 silly audit   '@typescript-eslint/project-service': [ '8.46.0' ],
+28 silly audit   '@typescript-eslint/scope-manager': [ '8.46.0' ],
+28 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.46.0' ],
+28 silly audit   '@typescript-eslint/type-utils': [ '8.46.0' ],
+28 silly audit   '@typescript-eslint/types': [ '8.46.0' ],
+28 silly audit   '@typescript-eslint/typescript-estree': [ '8.46.0' ],
+28 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+28 silly audit   'fast-glob': [ '3.3.3', '3.3.1' ],
+28 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+28 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+28 silly audit   '@typescript-eslint/utils': [ '8.46.0' ],
+28 silly audit   '@typescript-eslint/visitor-keys': [ '8.46.0' ],
+28 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+28 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+28 silly audit   acorn: [ '8.15.0' ],
+28 silly audit   'acorn-jsx': [ '5.3.2' ],
+28 silly audit   ajv: [ '6.12.6' ],
+28 silly audit   'ansi-styles': [ '4.3.0' ],
+28 silly audit   argparse: [ '2.0.1' ],
+28 silly audit   'aria-query': [ '5.3.2' ],
+28 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+28 silly audit   'array-includes': [ '3.1.9' ],
+28 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+28 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+28 silly audit   'array.prototype.flat': [ '1.3.3' ],
+28 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+28 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+28 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+28 silly audit   'ast-types-flow': [ '0.0.8' ],
+28 silly audit   'async-function': [ '1.0.0' ],
+28 silly audit   'available-typed-arrays': [ '1.0.7' ],
+28 silly audit   'axe-core': [ '4.11.0' ],
+28 silly audit   'axobject-query': [ '4.1.0' ],
+28 silly audit   'balanced-match': [ '1.0.2' ],
+28 silly audit   braces: [ '3.0.3' ],
+28 silly audit   'call-bind': [ '1.0.8' ],
+28 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+28 silly audit   'call-bound': [ '1.0.4' ],
+28 silly audit   callsites: [ '3.1.0' ],
+28 silly audit   'caniuse-lite': [ '1.0.30001750' ],
+28 silly audit   chalk: [ '4.1.2' ],
+28 silly audit   chownr: [ '3.0.0' ],
+28 silly audit   'client-only': [ '0.0.1' ],
+28 silly audit   'color-convert': [ '2.0.1' ],
+28 silly audit   'color-name': [ '1.1.4' ],
+28 silly audit   'concat-map': [ '0.0.1' ],
+28 silly audit   'cross-spawn': [ '7.0.6' ],
+28 silly audit   csstype: [ '3.1.3' ],
+28 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+28 silly audit   'data-view-buffer': [ '1.0.2' ],
+28 silly audit   'data-view-byte-length': [ '1.0.2' ],
+28 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+28 silly audit   debug: [ '4.4.3', '3.2.7' ],
+28 silly audit   'deep-is': [ '0.1.4' ],
+28 silly audit   'define-data-property': [ '1.1.4' ],
+28 silly audit   'define-properties': [ '1.2.1' ],
+28 silly audit   'detect-libc': [ '2.1.2' ],
+28 silly audit   doctrine: [ '2.1.0' ],
+28 silly audit   'dunder-proto': [ '1.0.1' ],
+28 silly audit   'emoji-regex': [ '9.2.2' ],
+28 silly audit   'enhanced-resolve': [ '5.18.3' ],
+28 silly audit   'es-abstract': [ '1.24.0' ],
+28 silly audit   'es-define-property': [ '1.0.1' ],
+28 silly audit   'es-errors': [ '1.3.0' ],
+28 silly audit   'es-iterator-helpers': [ '1.2.1' ],
+28 silly audit   'es-object-atoms': [ '1.1.1' ],
+28 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+28 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+28 silly audit   'es-to-primitive': [ '1.3.0' ],
+28 silly audit   'escape-string-regexp': [ '4.0.0' ],
+28 silly audit   eslint: [ '9.37.0' ],
+28 silly audit   'eslint-config-next': [ '15.5.4' ],
+28 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+28 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+28 silly audit   'eslint-module-utils': [ '2.12.1' ],
+28 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+28 silly audit   semver: [ '6.3.1', '7.7.3' ],
+28 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+28 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+28 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+28 silly audit   resolve: [ '2.0.0-next.5', '1.22.10' ],
+28 silly audit   'eslint-scope': [ '8.4.0' ],
+28 silly audit   espree: [ '10.4.0' ],
+28 silly audit   esquery: [ '1.6.0' ],
+28 silly audit   esrecurse: [ '4.3.0' ],
+28 silly audit   estraverse: [ '5.3.0' ],
+28 silly audit   esutils: [ '2.0.3' ],
+28 silly audit   'fast-deep-equal': [ '3.1.3' ],
+28 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+28 silly audit   'fast-levenshtein': [ '2.0.6' ],
+28 silly audit   fastq: [ '1.19.1' ],
+28 silly audit   'file-entry-cache': [ '8.0.0' ],
+28 silly audit   'fill-range': [ '7.1.1' ],
+28 silly audit   'find-up': [ '5.0.0' ],
+28 silly audit   'flat-cache': [ '4.0.1' ],
+28 silly audit   flatted: [ '3.3.3' ],
+28 silly audit   'for-each': [ '0.3.5' ],
+28 silly audit   'function-bind': [ '1.1.2' ],
+28 silly audit   'function.prototype.name': [ '1.1.8' ],
+28 silly audit   'functions-have-names': [ '1.2.3' ],
+28 silly audit   'generator-function': [ '2.0.1' ],
+28 silly audit   'get-intrinsic': [ '1.3.0' ],
+28 silly audit   'get-proto': [ '1.0.1' ],
+28 silly audit   'get-symbol-description': [ '1.1.0' ],
+28 silly audit   'get-tsconfig': [ '4.12.0' ],
+28 silly audit   globals: [ '14.0.0' ],
+28 silly audit   globalthis: [ '1.0.4' ],
+28 silly audit   gopd: [ '1.2.0' ],
+28 silly audit   'graceful-fs': [ '4.2.11' ],
+28 silly audit   graphemer: [ '1.4.0' ],
+28 silly audit   'has-bigints': [ '1.1.0' ],
+28 silly audit   'has-flag': [ '4.0.0' ],
+28 silly audit   'has-property-descriptors': [ '1.0.2' ],
+28 silly audit   'has-proto': [ '1.2.0' ],
+28 silly audit   'has-symbols': [ '1.1.0' ],
+28 silly audit   'has-tostringtag': [ '1.0.2' ],
+28 silly audit   hasown: [ '2.0.2' ],
+28 silly audit   'import-fresh': [ '3.3.1' ],
+28 silly audit   imurmurhash: [ '0.1.4' ],
+28 silly audit   'internal-slot': [ '1.1.0' ],
+28 silly audit   'is-array-buffer': [ '3.0.5' ],
+28 silly audit   'is-async-function': [ '2.1.1' ],
+28 silly audit   'is-bigint': [ '1.1.0' ],
+28 silly audit   'is-boolean-object': [ '1.2.2' ],
+28 silly audit   'is-bun-module': [ '2.0.0' ],
+28 silly audit   'is-callable': [ '1.2.7' ],
+28 silly audit   'is-core-module': [ '2.16.1' ],
+28 silly audit   'is-data-view': [ '1.0.2' ],
+28 silly audit   'is-date-object': [ '1.1.0' ],
+28 silly audit   'is-extglob': [ '2.1.1' ],
+28 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+28 silly audit   'is-generator-function': [ '1.1.2' ],
+28 silly audit   'is-glob': [ '4.0.3' ],
+28 silly audit   'is-map': [ '2.0.3' ],
+28 silly audit   'is-negative-zero': [ '2.0.3' ],
+28 silly audit   'is-number': [ '7.0.0' ],
+28 silly audit   'is-number-object': [ '1.1.1' ],
+28 silly audit   'is-regex': [ '1.2.1' ],
+28 silly audit   'is-set': [ '2.0.3' ],
+28 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+28 silly audit   'is-string': [ '1.1.1' ],
+28 silly audit   'is-symbol': [ '1.1.1' ],
+28 silly audit   'is-typed-array': [ '1.1.15' ],
+28 silly audit   'is-weakmap': [ '2.0.2' ],
+28 silly audit   'is-weakref': [ '1.1.1' ],
+28 silly audit   'is-weakset': [ '2.0.4' ],
+28 silly audit   isarray: [ '2.0.5' ],
+28 silly audit   isexe: [ '2.0.0' ],
+28 silly audit   'iterator.prototype': [ '1.1.5' ],
+28 silly audit   jiti: [ '2.6.1' ],
+28 silly audit   'js-tokens': [ '4.0.0' ],
+28 silly audit   'js-yaml': [ '4.1.0' ],
+28 silly audit   'json-buffer': [ '3.0.1' ],
+28 silly audit   'json-schema-traverse': [ '0.4.1' ],
+28 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+28 silly audit   json5: [ '1.0.2' ],
+28 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+28 silly audit   keyv: [ '4.5.4' ],
+28 silly audit   'language-subtag-registry': [ '0.3.23' ],
+28 silly audit   'language-tags': [ '1.0.9' ],
+28 silly audit   levn: [ '0.4.1' ],
+28 silly audit   lightningcss: [ '1.30.1' ],
+28 silly audit   'lightningcss-darwin-arm64': [ '1.30.1' ],
+28 silly audit   'lightningcss-darwin-x64': [ '1.30.1' ],
+28 silly audit   'lightningcss-freebsd-x64': [ '1.30.1' ],
+28 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.1' ],
+28 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.1' ],
+28 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.1' ],
+28 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.1' ],
+28 silly audit   'lightningcss-linux-x64-musl': [ '1.30.1' ],
+28 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.1' ],
+28 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.1' ],
+28 silly audit   'locate-path': [ '6.0.0' ],
+28 silly audit   'lodash.merge': [ '4.6.2' ],
+28 silly audit   'loose-envify': [ '1.4.0' ],
+28 silly audit   'lucide-react': [ '0.546.0' ],
+28 silly audit   'magic-string': [ '0.30.19' ],
+28 silly audit   'math-intrinsics': [ '1.1.0' ],
+28 silly audit   merge2: [ '1.4.1' ],
+28 silly audit   micromatch: [ '4.0.8' ],
+28 silly audit   minimist: [ '1.2.8' ],
+28 silly audit   minipass: [ '7.1.2' ],
+28 silly audit   minizlib: [ '3.1.0' ],
+28 silly audit   ms: [ '2.1.3' ],
+28 silly audit   nanoid: [ '3.3.11' ],
+28 silly audit   'napi-postinstall': [ '0.3.4' ],
+28 silly audit   'natural-compare': [ '1.4.0' ],
+28 silly audit   next: [ '15.5.4' ],
+28 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+28 silly audit   'object-assign': [ '4.1.1' ],
+28 silly audit   'object-inspect': [ '1.13.4' ],
+28 silly audit   'object-keys': [ '1.1.1' ],
+28 silly audit   'object.assign': [ '4.1.7' ],
+28 silly audit   'object.entries': [ '1.1.9' ],
+28 silly audit   'object.fromentries': [ '2.0.8' ],
+28 silly audit   'object.groupby': [ '1.0.3' ],
+28 silly audit   'object.values': [ '1.2.1' ],
+28 silly audit   optionator: [ '0.9.4' ],
+28 silly audit   'own-keys': [ '1.0.1' ],
+28 silly audit   'p-limit': [ '3.1.0' ],
+28 silly audit   'p-locate': [ '5.0.0' ],
+28 silly audit   'parent-module': [ '1.0.1' ],
+28 silly audit   'path-exists': [ '4.0.0' ],
+28 silly audit   'path-key': [ '3.1.1' ],
+28 silly audit   'path-parse': [ '1.0.7' ],
+28 silly audit   picocolors: [ '1.1.1' ],
+28 silly audit   picomatch: [ '2.3.1', '4.0.3' ],
+28 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+28 silly audit   'prelude-ls': [ '1.2.1' ],
+28 silly audit   'prop-types': [ '15.8.1' ],
+28 silly audit   punycode: [ '2.3.1' ],
+28 silly audit   'queue-microtask': [ '1.2.3' ],
+28 silly audit   react: [ '19.2.0' ],
+28 silly audit   'react-dom': [ '19.2.0' ],
+28 silly audit   'react-is': [ '16.13.1' ],
+28 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+28 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+28 silly audit   'resolve-from': [ '4.0.0' ],
+28 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+28 silly audit   reusify: [ '1.1.0' ],
+28 silly audit   'run-parallel': [ '1.2.0' ],
+28 silly audit   'safe-array-concat': [ '1.1.3' ],
+28 silly audit   'safe-push-apply': [ '1.0.0' ],
+28 silly audit   'safe-regex-test': [ '1.1.0' ],
+28 silly audit   scheduler: [ '0.27.0' ],
+28 silly audit   'set-function-length': [ '1.2.2' ],
+28 silly audit   'set-function-name': [ '2.0.2' ],
+28 silly audit   'set-proto': [ '1.0.0' ],
+28 silly audit   sharp: [ '0.34.4' ],
+28 silly audit   'shebang-command': [ '2.0.0' ],
+28 silly audit   'shebang-regex': [ '3.0.0' ],
+28 silly audit   'side-channel': [ '1.1.0' ],
+28 silly audit   'side-channel-list': [ '1.0.0' ],
+28 silly audit   'side-channel-map': [ '1.0.1' ],
+28 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+28 silly audit   'source-map-js': [ '1.2.1' ],
+28 silly audit   'stable-hash': [ '0.0.5' ],
+28 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+28 silly audit   'string.prototype.includes': [ '2.0.1' ],
+28 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+28 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+28 silly audit   'string.prototype.trim': [ '1.2.10' ],
+28 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+28 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+28 silly audit   'strip-bom': [ '3.0.0' ],
+28 silly audit   'strip-json-comments': [ '3.1.1' ],
+28 silly audit   'styled-jsx': [ '5.1.6' ],
+28 silly audit   'supports-color': [ '7.2.0' ],
+28 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+28 silly audit   tailwindcss: [ '4.1.14' ],
+28 silly audit   tapable: [ '2.3.0' ],
+28 silly audit   tar: [ '7.5.1' ],
+28 silly audit   tinyglobby: [ '0.2.15' ],
+28 silly audit   fdir: [ '6.5.0' ],
+28 silly audit   'to-regex-range': [ '5.0.1' ],
+28 silly audit   'ts-api-utils': [ '2.1.0' ],
+28 silly audit   'tsconfig-paths': [ '3.15.0' ],
+28 silly audit   tslib: [ '2.8.1' ],
+28 silly audit   'type-check': [ '0.4.0' ],
+28 silly audit   'typed-array-buffer': [ '1.0.3' ],
+28 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+28 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+28 silly audit   'typed-array-length': [ '1.0.7' ],
+28 silly audit   typescript: [ '5.9.3' ],
+28 silly audit   'unbox-primitive': [ '1.1.0' ],
+28 silly audit   'undici-types': [ '6.21.0' ],
+28 silly audit   'unrs-resolver': [ '1.11.1' ],
+28 silly audit   'uri-js': [ '4.4.1' ],
+28 silly audit   which: [ '2.0.2' ],
+28 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+28 silly audit   'which-builtin-type': [ '1.2.1' ],
+28 silly audit   'which-collection': [ '1.0.2' ],
+28 silly audit   'which-typed-array': [ '1.1.19' ],
+28 silly audit   'word-wrap': [ '1.2.5' ],
+28 silly audit   yallist: [ '5.0.0' ],
+28 silly audit   'yocto-queue': [ '0.1.0' ],
+28 silly audit   '@types/node': [ '20.19.22' ],
+28 silly audit   '@types/react': [ '19.2.2' ],
+28 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.14' ]
+28 silly audit }
+29 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-win32-x64-msvc
+30 silly reify mark deleted [
+30 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-win32-x64-msvc'
+30 silly reify ]
+31 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-win32-arm64-msvc
+32 silly reify mark deleted [
+32 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-win32-arm64-msvc'
+32 silly reify ]
+33 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-linux-arm64-musl
+34 silly reify mark deleted [
+34 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-linux-arm64-musl'
+34 silly reify ]
+35 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-linux-arm64-gnu
+36 silly reify mark deleted [
+36 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-linux-arm64-gnu'
+36 silly reify ]
+37 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-linux-arm-gnueabihf
+38 silly reify mark deleted [
+38 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-linux-arm-gnueabihf'
+38 silly reify ]
+39 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-freebsd-x64
+40 silly reify mark deleted [
+40 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-freebsd-x64'
+40 silly reify ]
+41 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-darwin-x64
+42 silly reify mark deleted [
+42 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-darwin-x64'
+42 silly reify ]
+43 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-darwin-arm64
+44 silly reify mark deleted [
+44 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-darwin-arm64'
+44 silly reify ]
+45 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-win32-x64-msvc
+46 silly reify mark deleted [
+46 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+46 silly reify ]
+47 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+48 silly reify mark deleted [
+48 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+48 silly reify ]
+49 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+50 silly reify mark deleted [
+50 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+50 silly reify ]
+51 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-wasm32-wasi
+52 silly reify mark deleted [
+52 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-wasm32-wasi'
+52 silly reify ]
+53 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+54 silly reify mark deleted [
+54 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+54 silly reify ]
+55 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+56 silly reify mark deleted [
+56 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+56 silly reify ]
+57 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+58 silly reify mark deleted [
+58 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+58 silly reify ]
+59 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+60 silly reify mark deleted [
+60 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+60 silly reify ]
+61 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm64-musl
+62 silly reify mark deleted [
+62 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+62 silly reify ]
+63 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+64 silly reify mark deleted [
+64 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+64 silly reify ]
+65 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+66 silly reify mark deleted [
+66 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+66 silly reify ]
+67 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+68 silly reify mark deleted [
+68 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+68 silly reify ]
+69 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-freebsd-x64
+70 silly reify mark deleted [
+70 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-freebsd-x64'
+70 silly reify ]
+71 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-darwin-x64
+72 silly reify mark deleted [
+72 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-darwin-x64'
+72 silly reify ]
+73 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-darwin-arm64
+74 silly reify mark deleted [
+74 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-darwin-arm64'
+74 silly reify ]
+75 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-android-arm64
+76 silly reify mark deleted [
+76 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-android-arm64'
+76 silly reify ]
+77 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-android-arm-eabi
+78 silly reify mark deleted [
+78 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-android-arm-eabi'
+78 silly reify ]
+79 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-win32-x64-msvc
+80 silly reify mark deleted [
+80 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+80 silly reify ]
+81 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+82 silly reify mark deleted [
+82 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+82 silly reify ]
+83 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-linux-arm64-musl
+84 silly reify mark deleted [
+84 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+84 silly reify ]
+85 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+86 silly reify mark deleted [
+86 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+86 silly reify ]
+87 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+88 silly reify mark deleted [
+88 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+88 silly reify ]
+89 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-freebsd-x64
+90 silly reify mark deleted [
+90 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-freebsd-x64'
+90 silly reify ]
+91 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-darwin-x64
+92 silly reify mark deleted [
+92 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-darwin-x64'
+92 silly reify ]
+93 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-darwin-arm64
+94 silly reify mark deleted [
+94 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-darwin-arm64'
+94 silly reify ]
+95 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-android-arm64
+96 silly reify mark deleted [
+96 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-android-arm64'
+96 silly reify ]
+97 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-win32-x64-msvc
+98 silly reify mark deleted [
+98 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-win32-x64-msvc'
+98 silly reify ]
+99 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-win32-arm64-msvc
+100 silly reify mark deleted [
+100 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-win32-arm64-msvc'
+100 silly reify ]
+101 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-linux-arm64-musl
+102 silly reify mark deleted [
+102 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-linux-arm64-musl'
+102 silly reify ]
+103 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-linux-arm64-gnu
+104 silly reify mark deleted [
+104 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-linux-arm64-gnu'
+104 silly reify ]
+105 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-darwin-x64
+106 silly reify mark deleted [
+106 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-darwin-x64'
+106 silly reify ]
+107 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-darwin-arm64
+108 silly reify mark deleted [
+108 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-darwin-arm64'
+108 silly reify ]
+109 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-x64
+110 silly reify mark deleted [
+110 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-x64'
+110 silly reify ]
+111 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-ia32
+112 silly reify mark deleted [
+112 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-ia32'
+112 silly reify ]
+113 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-arm64
+114 silly reify mark deleted [
+114 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-arm64'
+114 silly reify ]
+115 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-wasm32
+116 silly reify mark deleted [
+116 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-wasm32'
+116 silly reify ]
+117 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linuxmusl-arm64
+118 silly reify mark deleted [
+118 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linuxmusl-arm64'
+118 silly reify ]
+119 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-s390x
+120 silly reify mark deleted [
+120 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-s390x'
+120 silly reify ]
+121 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-ppc64
+122 silly reify mark deleted [
+122 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-ppc64'
+122 silly reify ]
+123 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-arm64
+124 silly reify mark deleted [
+124 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-arm64'
+124 silly reify ]
+125 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-arm
+126 silly reify mark deleted [
+126 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-arm'
+126 silly reify ]
+127 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linuxmusl-arm64
+128 silly reify mark deleted [
+128 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+128 silly reify ]
+129 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-s390x
+130 silly reify mark deleted [
+130 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-s390x'
+130 silly reify ]
+131 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-ppc64
+132 silly reify mark deleted [
+132 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-ppc64'
+132 silly reify ]
+133 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-arm64
+134 silly reify mark deleted [
+134 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-arm64'
+134 silly reify ]
+135 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-arm
+136 silly reify mark deleted [
+136 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-arm'
+136 silly reify ]
+137 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-darwin-x64
+138 silly reify mark deleted [
+138 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-darwin-x64'
+138 silly reify ]
+139 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-darwin-arm64
+140 silly reify mark deleted [
+140 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-darwin-arm64'
+140 silly reify ]
+141 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-darwin-x64
+142 silly reify mark deleted [
+142 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-darwin-x64'
+142 silly reify ]
+143 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-darwin-arm64
+144 silly reify mark deleted [
+144 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-darwin-arm64'
+144 silly reify ]
+145 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1228ms
+146 silly audit report {}
+147 info run @tailwindcss/oxide@4.1.14 postinstall node_modules/@tailwindcss/oxide node ./scripts/install.js
+148 info run unrs-resolver@1.11.1 postinstall node_modules/unrs-resolver napi-postinstall unrs-resolver 1.11.1 check
+149 info run unrs-resolver@1.11.1 postinstall { code: 0, signal: null }
+150 info run @tailwindcss/oxide@4.1.14 postinstall { code: 0, signal: null }
+151 silly ADD node_modules/@types/react
+152 silly ADD node_modules/@types/node
+153 silly ADD node_modules/yocto-queue
+154 silly ADD node_modules/yallist
+155 silly ADD node_modules/word-wrap
+156 silly ADD node_modules/which-typed-array
+157 silly ADD node_modules/which-collection
+158 silly ADD node_modules/which-builtin-type
+159 silly ADD node_modules/which-boxed-primitive
+160 silly ADD node_modules/which
+161 silly ADD node_modules/uri-js
+162 silly ADD node_modules/unrs-resolver
+163 silly ADD node_modules/undici-types
+164 silly ADD node_modules/unbox-primitive
+165 silly ADD node_modules/typescript
+166 silly ADD node_modules/typed-array-length
+167 silly ADD node_modules/typed-array-byte-offset
+168 silly ADD node_modules/typed-array-byte-length
+169 silly ADD node_modules/typed-array-buffer
+170 silly ADD node_modules/type-check
+171 silly ADD node_modules/tsconfig-paths
+172 silly ADD node_modules/ts-api-utils
+173 silly ADD node_modules/to-regex-range
+174 silly ADD node_modules/tinyglobby
+175 silly ADD node_modules/tinyglobby/node_modules/picomatch
+176 silly ADD node_modules/tinyglobby/node_modules/fdir
+177 silly ADD node_modules/tar
+178 silly ADD node_modules/tapable
+179 silly ADD node_modules/tailwindcss
+180 silly ADD node_modules/supports-preserve-symlinks-flag
+181 silly ADD node_modules/supports-color
+182 silly ADD node_modules/strip-json-comments
+183 silly ADD node_modules/strip-bom
+184 silly ADD node_modules/string.prototype.trimstart
+185 silly ADD node_modules/string.prototype.trimend
+186 silly ADD node_modules/string.prototype.trim
+187 silly ADD node_modules/string.prototype.repeat
+188 silly ADD node_modules/string.prototype.matchall
+189 silly ADD node_modules/string.prototype.includes
+190 silly ADD node_modules/stop-iteration-iterator
+191 silly ADD node_modules/stable-hash
+192 silly ADD node_modules/side-channel-weakmap
+193 silly ADD node_modules/side-channel-map
+194 silly ADD node_modules/side-channel-list
+195 silly ADD node_modules/side-channel
+196 silly ADD node_modules/shebang-regex
+197 silly ADD node_modules/shebang-command
+198 silly ADD node_modules/set-proto
+199 silly ADD node_modules/set-function-name
+200 silly ADD node_modules/set-function-length
+201 silly ADD node_modules/safe-regex-test
+202 silly ADD node_modules/safe-push-apply
+203 silly ADD node_modules/safe-array-concat
+204 silly ADD node_modules/run-parallel
+205 silly ADD node_modules/reusify
+206 silly ADD node_modules/resolve-pkg-maps
+207 silly ADD node_modules/resolve-from
+208 silly ADD node_modules/resolve
+209 silly ADD node_modules/regexp.prototype.flags
+210 silly ADD node_modules/reflect.getprototypeof
+211 silly ADD node_modules/react-is
+212 silly ADD node_modules/queue-microtask
+213 silly ADD node_modules/punycode
+214 silly ADD node_modules/prop-types
+215 silly ADD node_modules/prelude-ls
+216 silly ADD node_modules/postcss
+217 silly ADD node_modules/possible-typed-array-names
+218 silly ADD node_modules/picomatch
+219 silly ADD node_modules/path-parse
+220 silly ADD node_modules/path-key
+221 silly ADD node_modules/path-exists
+222 silly ADD node_modules/parent-module
+223 silly ADD node_modules/p-locate
+224 silly ADD node_modules/p-limit
+225 silly ADD node_modules/own-keys
+226 silly ADD node_modules/optionator
+227 silly ADD node_modules/object.values
+228 silly ADD node_modules/object.groupby
+229 silly ADD node_modules/object.fromentries
+230 silly ADD node_modules/object.entries
+231 silly ADD node_modules/object.assign
+232 silly ADD node_modules/object-keys
+233 silly ADD node_modules/object-inspect
+234 silly ADD node_modules/object-assign
+235 silly ADD node_modules/natural-compare
+236 silly ADD node_modules/napi-postinstall
+237 silly ADD node_modules/ms
+238 silly ADD node_modules/minizlib
+239 silly ADD node_modules/minipass
+240 silly ADD node_modules/minimist
+241 silly ADD node_modules/minimatch
+242 silly ADD node_modules/micromatch
+243 silly ADD node_modules/merge2
+244 silly ADD node_modules/math-intrinsics
+245 silly ADD node_modules/magic-string
+246 silly ADD node_modules/loose-envify
+247 silly ADD node_modules/lodash.merge
+248 silly ADD node_modules/locate-path
+249 silly ADD
+250 silly ADD
+251 silly ADD node_modules/lightningcss-linux-x64-musl
+252 silly ADD node_modules/lightningcss-linux-x64-gnu
+253 silly ADD
+254 silly ADD
+255 silly ADD
+256 silly ADD
+257 silly ADD
+258 silly ADD
+259 silly ADD node_modules/lightningcss
+260 silly ADD node_modules/levn
+261 silly ADD node_modules/language-tags
+262 silly ADD node_modules/language-subtag-registry
+263 silly ADD node_modules/keyv
+264 silly ADD node_modules/jsx-ast-utils
+265 silly ADD node_modules/json5
+266 silly ADD node_modules/json-stable-stringify-without-jsonify
+267 silly ADD node_modules/json-schema-traverse
+268 silly ADD node_modules/json-buffer
+269 silly ADD node_modules/js-yaml
+270 silly ADD node_modules/js-tokens
+271 silly ADD node_modules/jiti
+272 silly ADD node_modules/iterator.prototype
+273 silly ADD node_modules/isexe
+274 silly ADD node_modules/isarray
+275 silly ADD node_modules/is-weakset
+276 silly ADD node_modules/is-weakref
+277 silly ADD node_modules/is-weakmap
+278 silly ADD node_modules/is-typed-array
+279 silly ADD node_modules/is-symbol
+280 silly ADD node_modules/is-string
+281 silly ADD node_modules/is-shared-array-buffer
+282 silly ADD node_modules/is-set
+283 silly ADD node_modules/is-regex
+284 silly ADD node_modules/is-number-object
+285 silly ADD node_modules/is-number
+286 silly ADD node_modules/is-negative-zero
+287 silly ADD node_modules/is-map
+288 silly ADD node_modules/is-glob
+289 silly ADD node_modules/is-generator-function
+290 silly ADD node_modules/is-finalizationregistry
+291 silly ADD node_modules/is-extglob
+292 silly ADD node_modules/is-date-object
+293 silly ADD node_modules/is-data-view
+294 silly ADD node_modules/is-core-module
+295 silly ADD node_modules/is-callable
+296 silly ADD node_modules/is-bun-module
+297 silly ADD node_modules/is-boolean-object
+298 silly ADD node_modules/is-bigint
+299 silly ADD node_modules/is-async-function
+300 silly ADD node_modules/is-array-buffer
+301 silly ADD node_modules/internal-slot
+302 silly ADD node_modules/imurmurhash
+303 silly ADD node_modules/import-fresh
+304 silly ADD node_modules/ignore
+305 silly ADD node_modules/hasown
+306 silly ADD node_modules/has-tostringtag
+307 silly ADD node_modules/has-symbols
+308 silly ADD node_modules/has-proto
+309 silly ADD node_modules/has-property-descriptors
+310 silly ADD node_modules/has-flag
+311 silly ADD node_modules/has-bigints
+312 silly ADD node_modules/graphemer
+313 silly ADD node_modules/graceful-fs
+314 silly ADD node_modules/gopd
+315 silly ADD node_modules/globalthis
+316 silly ADD node_modules/globals
+317 silly ADD node_modules/glob-parent
+318 silly ADD node_modules/get-tsconfig
+319 silly ADD node_modules/get-symbol-description
+320 silly ADD node_modules/get-proto
+321 silly ADD node_modules/get-intrinsic
+322 silly ADD node_modules/generator-function
+323 silly ADD node_modules/functions-have-names
+324 silly ADD node_modules/function.prototype.name
+325 silly ADD node_modules/function-bind
+326 silly ADD node_modules/for-each
+327 silly ADD node_modules/flatted
+328 silly ADD node_modules/flat-cache
+329 silly ADD node_modules/find-up
+330 silly ADD node_modules/fill-range
+331 silly ADD node_modules/file-entry-cache
+332 silly ADD node_modules/fastq
+333 silly ADD node_modules/fast-levenshtein
+334 silly ADD node_modules/fast-json-stable-stringify
+335 silly ADD node_modules/fast-glob
+336 silly ADD node_modules/fast-glob/node_modules/glob-parent
+337 silly ADD node_modules/fast-deep-equal
+338 silly ADD node_modules/esutils
+339 silly ADD node_modules/estraverse
+340 silly ADD node_modules/esrecurse
+341 silly ADD node_modules/esquery
+342 silly ADD node_modules/espree
+343 silly ADD node_modules/eslint-visitor-keys
+344 silly ADD node_modules/eslint-scope
+345 silly ADD node_modules/eslint-plugin-react-hooks
+346 silly ADD node_modules/eslint-plugin-react
+347 silly ADD node_modules/eslint-plugin-react/node_modules/semver
+348 silly ADD node_modules/eslint-plugin-react/node_modules/resolve
+349 silly ADD node_modules/eslint-plugin-jsx-a11y
+350 silly ADD node_modules/eslint-plugin-import
+351 silly ADD node_modules/eslint-plugin-import/node_modules/semver
+352 silly ADD node_modules/eslint-plugin-import/node_modules/debug
+353 silly ADD node_modules/eslint-module-utils
+354 silly ADD node_modules/eslint-module-utils/node_modules/debug
+355 silly ADD node_modules/eslint-import-resolver-typescript
+356 silly ADD node_modules/eslint-import-resolver-node
+357 silly ADD node_modules/eslint-import-resolver-node/node_modules/debug
+358 silly ADD node_modules/eslint-config-next
+359 silly ADD node_modules/eslint
+360 silly ADD node_modules/escape-string-regexp
+361 silly ADD node_modules/es-to-primitive
+362 silly ADD node_modules/es-shim-unscopables
+363 silly ADD node_modules/es-set-tostringtag
+364 silly ADD node_modules/es-object-atoms
+365 silly ADD node_modules/es-iterator-helpers
+366 silly ADD node_modules/es-errors
+367 silly ADD node_modules/es-define-property
+368 silly ADD node_modules/es-abstract
+369 silly ADD node_modules/enhanced-resolve
+370 silly ADD node_modules/emoji-regex
+371 silly ADD node_modules/dunder-proto
+372 silly ADD node_modules/doctrine
+373 silly ADD node_modules/define-properties
+374 silly ADD node_modules/define-data-property
+375 silly ADD node_modules/deep-is
+376 silly ADD node_modules/debug
+377 silly ADD node_modules/data-view-byte-offset
+378 silly ADD node_modules/data-view-byte-length
+379 silly ADD node_modules/data-view-buffer
+380 silly ADD node_modules/damerau-levenshtein
+381 silly ADD node_modules/csstype
+382 silly ADD node_modules/cross-spawn
+383 silly ADD node_modules/concat-map
+384 silly ADD node_modules/color-name
+385 silly ADD node_modules/color-convert
+386 silly ADD node_modules/chownr
+387 silly ADD node_modules/chalk
+388 silly ADD node_modules/callsites
+389 silly ADD node_modules/call-bound
+390 silly ADD node_modules/call-bind-apply-helpers
+391 silly ADD node_modules/call-bind
+392 silly ADD node_modules/braces
+393 silly ADD node_modules/brace-expansion
+394 silly ADD node_modules/balanced-match
+395 silly ADD node_modules/axobject-query
+396 silly ADD node_modules/axe-core
+397 silly ADD node_modules/available-typed-arrays
+398 silly ADD node_modules/async-function
+399 silly ADD node_modules/ast-types-flow
+400 silly ADD node_modules/arraybuffer.prototype.slice
+401 silly ADD node_modules/array.prototype.tosorted
+402 silly ADD node_modules/array.prototype.flatmap
+403 silly ADD node_modules/array.prototype.flat
+404 silly ADD node_modules/array.prototype.findlastindex
+405 silly ADD node_modules/array.prototype.findlast
+406 silly ADD node_modules/array-includes
+407 silly ADD node_modules/array-buffer-byte-length
+408 silly ADD node_modules/aria-query
+409 silly ADD node_modules/argparse
+410 silly ADD node_modules/ansi-styles
+411 silly ADD node_modules/ajv
+412 silly ADD node_modules/acorn-jsx
+413 silly ADD node_modules/acorn
+414 silly ADD
+415 silly ADD
+416 silly ADD
+417 silly ADD
+418 silly ADD node_modules/@unrs/resolver-binding-linux-x64-musl
+419 silly ADD node_modules/@unrs/resolver-binding-linux-x64-gnu
+420 silly ADD
+421 silly ADD
+422 silly ADD
+423 silly ADD
+424 silly ADD
+425 silly ADD
+426 silly ADD
+427 silly ADD
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD
+432 silly ADD
+433 silly ADD node_modules/@typescript-eslint/visitor-keys
+434 silly ADD node_modules/@typescript-eslint/utils
+435 silly ADD node_modules/@typescript-eslint/typescript-estree
+436 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch
+437 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/glob-parent
+438 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/fast-glob
+439 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion
+440 silly ADD node_modules/@typescript-eslint/types
+441 silly ADD node_modules/@typescript-eslint/type-utils
+442 silly ADD node_modules/@typescript-eslint/tsconfig-utils
+443 silly ADD node_modules/@typescript-eslint/scope-manager
+444 silly ADD node_modules/@typescript-eslint/project-service
+445 silly ADD node_modules/@typescript-eslint/parser
+446 silly ADD node_modules/@typescript-eslint/eslint-plugin
+447 silly ADD node_modules/@typescript-eslint/eslint-plugin/node_modules/ignore
+448 silly ADD node_modules/@types/react-dom
+449 silly ADD node_modules/@types/json5
+450 silly ADD node_modules/@types/json-schema
+451 silly ADD node_modules/@types/estree
+452 silly ADD node_modules/@tybys/wasm-util
+453 silly ADD node_modules/@tailwindcss/postcss
+454 silly ADD
+455 silly ADD
+456 silly ADD
+457 silly ADD node_modules/@tailwindcss/oxide-linux-x64-musl
+458 silly ADD node_modules/@tailwindcss/oxide-linux-x64-gnu
+459 silly ADD
+460 silly ADD
+461 silly ADD
+462 silly ADD
+463 silly ADD
+464 silly ADD
+465 silly ADD
+466 silly ADD node_modules/@tailwindcss/oxide
+467 silly ADD node_modules/@tailwindcss/node
+468 silly ADD node_modules/@rushstack/eslint-patch
+469 silly ADD node_modules/@rtsao/scc
+470 silly ADD node_modules/@nolyfill/is-core-module
+471 silly ADD node_modules/@nodelib/fs.walk
+472 silly ADD node_modules/@nodelib/fs.stat
+473 silly ADD node_modules/@nodelib/fs.scandir
+474 silly ADD
+475 silly ADD
+476 silly ADD
+477 silly ADD
+478 silly ADD
+479 silly ADD
+480 silly ADD node_modules/@next/eslint-plugin-next
+481 silly ADD node_modules/@napi-rs/wasm-runtime
+482 silly ADD node_modules/@jridgewell/trace-mapping
+483 silly ADD node_modules/@jridgewell/sourcemap-codec
+484 silly ADD node_modules/@jridgewell/resolve-uri
+485 silly ADD node_modules/@jridgewell/remapping
+486 silly ADD node_modules/@jridgewell/gen-mapping
+487 silly ADD node_modules/@isaacs/fs-minipass
+488 silly ADD
+489 silly ADD
+490 silly ADD
+491 silly ADD
+492 silly ADD
+493 silly ADD
+494 silly ADD
+495 silly ADD
+496 silly ADD
+497 silly ADD
+498 silly ADD
+499 silly ADD
+500 silly ADD
+501 silly ADD
+502 silly ADD
+503 silly ADD
+504 silly ADD
+505 silly ADD
+506 silly ADD node_modules/@humanwhocodes/retry
+507 silly ADD node_modules/@humanwhocodes/module-importer
+508 silly ADD node_modules/@humanfs/node
+509 silly ADD node_modules/@humanfs/core
+510 silly ADD node_modules/@eslint/plugin-kit
+511 silly ADD node_modules/@eslint/object-schema
+512 silly ADD node_modules/@eslint/js
+513 silly ADD node_modules/@eslint/eslintrc
+514 silly ADD node_modules/@eslint/core
+515 silly ADD node_modules/@eslint/config-helpers
+516 silly ADD node_modules/@eslint/config-array
+517 silly ADD node_modules/@eslint-community/regexpp
+518 silly ADD node_modules/@eslint-community/eslint-utils
+519 silly ADD node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys
+520 silly ADD node_modules/@emnapi/wasi-threads
+521 silly ADD node_modules/@emnapi/core
+522 silly ADD node_modules/@alloc/quick-lru
+523 verbose cwd /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs
+524 verbose os Linux 6.12.51
+525 verbose node v20.19.5
+526 verbose npm  v10.8.2
+527 verbose exit 0
+528 info ok

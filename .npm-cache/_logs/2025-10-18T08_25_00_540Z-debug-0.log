@@ -1,0 +1,1627 @@
+0 verbose cli /nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/bin/node /nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:/nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/.npmrc
+5 silly config load:file:/home/orta/.npmrc
+6 silly config load:file:/nix/store/0kh1y9df3ipxa8b3gkwghzjwwn07y23n-nodejs-20.19.5/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/.npm-cache/_logs/2025-10-18T08_25_00_540Z-
+10 verbose logfile /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/.npm-cache/_logs/2025-10-18T08_25_00_540Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly reify mark deleted [
+15 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@alloc/quick-lru'
+15 silly reify ]
+16 silly reify mark deleted [
+16 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@emnapi/core'
+16 silly reify ]
+17 silly reify mark deleted [
+17 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@emnapi/wasi-threads'
+17 silly reify ]
+18 silly reify mark deleted [
+18 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@eslint-community/eslint-utils'
+18 silly reify ]
+19 silly reify mark deleted [
+19 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys'
+19 silly reify ]
+20 silly reify mark deleted [
+20 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@eslint-community/regexpp'
+20 silly reify ]
+21 silly reify mark deleted [
+21 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@eslint/config-array'
+21 silly reify ]
+22 silly reify mark deleted [
+22 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@eslint/config-helpers'
+22 silly reify ]
+23 silly reify mark deleted [
+23 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@eslint/core'
+23 silly reify ]
+24 silly reify mark deleted [
+24 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@eslint/eslintrc'
+24 silly reify ]
+25 silly reify mark deleted [
+25 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@eslint/js'
+25 silly reify ]
+26 silly reify mark deleted [
+26 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@eslint/object-schema'
+26 silly reify ]
+27 silly reify mark deleted [
+27 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@eslint/plugin-kit'
+27 silly reify ]
+28 silly reify mark deleted [
+28 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@humanfs/core'
+28 silly reify ]
+29 silly reify mark deleted [
+29 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@humanfs/node'
+29 silly reify ]
+30 silly reify mark deleted [
+30 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@humanwhocodes/module-importer'
+30 silly reify ]
+31 silly reify mark deleted [
+31 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@humanwhocodes/retry'
+31 silly reify ]
+32 silly reify mark deleted [
+32 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@isaacs/fs-minipass'
+32 silly reify ]
+33 silly reify mark deleted [
+33 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@jridgewell/gen-mapping'
+33 silly reify ]
+34 silly reify mark deleted [
+34 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@jridgewell/remapping'
+34 silly reify ]
+35 silly reify mark deleted [
+35 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@jridgewell/resolve-uri'
+35 silly reify ]
+36 silly reify mark deleted [
+36 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@jridgewell/sourcemap-codec'
+36 silly reify ]
+37 silly reify mark deleted [
+37 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@jridgewell/trace-mapping'
+37 silly reify ]
+38 silly reify mark deleted [
+38 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@napi-rs/wasm-runtime'
+38 silly reify ]
+39 silly reify mark deleted [
+39 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/eslint-plugin-next'
+39 silly reify ]
+40 silly reify mark deleted [
+40 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@nodelib/fs.scandir'
+40 silly reify ]
+41 silly reify mark deleted [
+41 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@nodelib/fs.stat'
+41 silly reify ]
+42 silly reify mark deleted [
+42 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@nodelib/fs.walk'
+42 silly reify ]
+43 silly reify mark deleted [
+43 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@nolyfill/is-core-module'
+43 silly reify ]
+44 silly reify mark deleted [
+44 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@rtsao/scc'
+44 silly reify ]
+45 silly reify mark deleted [
+45 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@rushstack/eslint-patch'
+45 silly reify ]
+46 silly reify mark deleted [
+46 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/node'
+46 silly reify ]
+47 silly reify mark deleted [
+47 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide'
+47 silly reify ]
+48 silly reify mark deleted [
+48 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-android-arm64'
+48 silly reify ]
+49 silly reify mark deleted [
+49 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-darwin-arm64'
+49 silly reify ]
+50 silly reify mark deleted [
+50 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-darwin-x64'
+50 silly reify ]
+51 silly reify mark deleted [
+51 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-freebsd-x64'
+51 silly reify ]
+52 silly reify mark deleted [
+52 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+52 silly reify ]
+53 silly reify mark deleted [
+53 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+53 silly reify ]
+54 silly reify mark deleted [
+54 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+54 silly reify ]
+55 silly reify mark deleted [
+55 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+55 silly reify ]
+56 silly reify mark deleted [
+56 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-linux-x64-musl'
+56 silly reify ]
+57 silly reify mark deleted [
+57 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-wasm32-wasi'
+57 silly reify ]
+58 silly reify mark deleted [
+58 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+58 silly reify ]
+59 silly reify mark deleted [
+59 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+59 silly reify ]
+60 silly reify mark deleted [
+60 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tailwindcss/postcss'
+60 silly reify ]
+61 silly reify mark deleted [
+61 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@tybys/wasm-util'
+61 silly reify ]
+62 silly reify mark deleted [
+62 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@types/estree'
+62 silly reify ]
+63 silly reify mark deleted [
+63 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@types/json-schema'
+63 silly reify ]
+64 silly reify mark deleted [
+64 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@types/json5'
+64 silly reify ]
+65 silly reify mark deleted [
+65 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@types/node'
+65 silly reify ]
+66 silly reify mark deleted [
+66 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@types/react'
+66 silly reify ]
+67 silly reify mark deleted [
+67 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@types/react-dom'
+67 silly reify ]
+68 silly reify mark deleted [
+68 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/eslint-plugin'
+68 silly reify ]
+69 silly reify mark deleted [
+69 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/eslint-plugin/node_modules/ignore'
+69 silly reify ]
+70 silly reify mark deleted [
+70 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/parser'
+70 silly reify ]
+71 silly reify mark deleted [
+71 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/project-service'
+71 silly reify ]
+72 silly reify mark deleted [
+72 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/scope-manager'
+72 silly reify ]
+73 silly reify mark deleted [
+73 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/tsconfig-utils'
+73 silly reify ]
+74 silly reify mark deleted [
+74 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/type-utils'
+74 silly reify ]
+75 silly reify mark deleted [
+75 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/types'
+75 silly reify ]
+76 silly reify mark deleted [
+76 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/typescript-estree'
+76 silly reify ]
+77 silly reify mark deleted [
+77 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion'
+77 silly reify ]
+78 silly reify mark deleted [
+78 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/typescript-estree/node_modules/fast-glob'
+78 silly reify ]
+79 silly reify mark deleted [
+79 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/typescript-estree/node_modules/glob-parent'
+79 silly reify ]
+80 silly reify mark deleted [
+80 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch'
+80 silly reify ]
+81 silly reify mark deleted [
+81 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/utils'
+81 silly reify ]
+82 silly reify mark deleted [
+82 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@typescript-eslint/visitor-keys'
+82 silly reify ]
+83 silly reify mark deleted [
+83 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-android-arm-eabi'
+83 silly reify ]
+84 silly reify mark deleted [
+84 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-android-arm64'
+84 silly reify ]
+85 silly reify mark deleted [
+85 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-darwin-arm64'
+85 silly reify ]
+86 silly reify mark deleted [
+86 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-darwin-x64'
+86 silly reify ]
+87 silly reify mark deleted [
+87 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-freebsd-x64'
+87 silly reify ]
+88 silly reify mark deleted [
+88 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+88 silly reify ]
+89 silly reify mark deleted [
+89 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+89 silly reify ]
+90 silly reify mark deleted [
+90 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+90 silly reify ]
+91 silly reify mark deleted [
+91 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+91 silly reify ]
+92 silly reify mark deleted [
+92 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+92 silly reify ]
+93 silly reify mark deleted [
+93 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+93 silly reify ]
+94 silly reify mark deleted [
+94 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+94 silly reify ]
+95 silly reify mark deleted [
+95 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+95 silly reify ]
+96 silly reify mark deleted [
+96 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+96 silly reify ]
+97 silly reify mark deleted [
+97 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-linux-x64-musl'
+97 silly reify ]
+98 silly reify mark deleted [
+98 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-wasm32-wasi'
+98 silly reify ]
+99 silly reify mark deleted [
+99 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+99 silly reify ]
+100 silly reify mark deleted [
+100 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+100 silly reify ]
+101 silly reify mark deleted [
+101 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+101 silly reify ]
+102 silly reify mark deleted [
+102 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/acorn',
+102 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/.bin/acorn'
+102 silly reify ]
+103 silly reify mark deleted [
+103 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/acorn-jsx'
+103 silly reify ]
+104 silly reify mark deleted [
+104 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/ajv'
+104 silly reify ]
+105 silly reify mark deleted [
+105 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/ansi-styles'
+105 silly reify ]
+106 silly reify mark deleted [
+106 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/argparse'
+106 silly reify ]
+107 silly reify mark deleted [
+107 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/aria-query'
+107 silly reify ]
+108 silly reify mark deleted [
+108 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/array-buffer-byte-length'
+108 silly reify ]
+109 silly reify mark deleted [
+109 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/array-includes'
+109 silly reify ]
+110 silly reify mark deleted [
+110 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/array.prototype.findlast'
+110 silly reify ]
+111 silly reify mark deleted [
+111 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/array.prototype.findlastindex'
+111 silly reify ]
+112 silly reify mark deleted [
+112 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/array.prototype.flat'
+112 silly reify ]
+113 silly reify mark deleted [
+113 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/array.prototype.flatmap'
+113 silly reify ]
+114 silly reify mark deleted [
+114 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/array.prototype.tosorted'
+114 silly reify ]
+115 silly reify mark deleted [
+115 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/arraybuffer.prototype.slice'
+115 silly reify ]
+116 silly reify mark deleted [
+116 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/ast-types-flow'
+116 silly reify ]
+117 silly reify mark deleted [
+117 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/async-function'
+117 silly reify ]
+118 silly reify mark deleted [
+118 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/available-typed-arrays'
+118 silly reify ]
+119 silly reify mark deleted [
+119 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/axe-core'
+119 silly reify ]
+120 silly reify mark deleted [
+120 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/axobject-query'
+120 silly reify ]
+121 silly reify mark deleted [
+121 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/balanced-match'
+121 silly reify ]
+122 silly reify mark deleted [
+122 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/brace-expansion'
+122 silly reify ]
+123 silly reify mark deleted [
+123 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/braces'
+123 silly reify ]
+124 silly reify mark deleted [
+124 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/call-bind'
+124 silly reify ]
+125 silly reify mark deleted [
+125 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/call-bind-apply-helpers'
+125 silly reify ]
+126 silly reify mark deleted [
+126 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/call-bound'
+126 silly reify ]
+127 silly reify mark deleted [
+127 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/callsites'
+127 silly reify ]
+128 silly reify mark deleted [
+128 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/chalk'
+128 silly reify ]
+129 silly reify mark deleted [
+129 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/chownr'
+129 silly reify ]
+130 silly reify mark deleted [
+130 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/color-convert'
+130 silly reify ]
+131 silly reify mark deleted [
+131 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/color-name'
+131 silly reify ]
+132 silly reify mark deleted [
+132 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/concat-map'
+132 silly reify ]
+133 silly reify mark deleted [
+133 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/cross-spawn'
+133 silly reify ]
+134 silly reify mark deleted [
+134 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/csstype'
+134 silly reify ]
+135 silly reify mark deleted [
+135 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/damerau-levenshtein'
+135 silly reify ]
+136 silly reify mark deleted [
+136 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/data-view-buffer'
+136 silly reify ]
+137 silly reify mark deleted [
+137 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/data-view-byte-length'
+137 silly reify ]
+138 silly reify mark deleted [
+138 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/data-view-byte-offset'
+138 silly reify ]
+139 silly reify mark deleted [
+139 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/debug'
+139 silly reify ]
+140 silly reify mark deleted [
+140 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/deep-is'
+140 silly reify ]
+141 silly reify mark deleted [
+141 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/define-data-property'
+141 silly reify ]
+142 silly reify mark deleted [
+142 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/define-properties'
+142 silly reify ]
+143 silly reify mark deleted [
+143 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/doctrine'
+143 silly reify ]
+144 silly reify mark deleted [
+144 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/dunder-proto'
+144 silly reify ]
+145 silly reify mark deleted [
+145 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/emoji-regex'
+145 silly reify ]
+146 silly reify mark deleted [
+146 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/enhanced-resolve'
+146 silly reify ]
+147 silly reify mark deleted [
+147 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/es-abstract'
+147 silly reify ]
+148 silly reify mark deleted [
+148 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/es-define-property'
+148 silly reify ]
+149 silly reify mark deleted [
+149 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/es-errors'
+149 silly reify ]
+150 silly reify mark deleted [
+150 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/es-iterator-helpers'
+150 silly reify ]
+151 silly reify mark deleted [
+151 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/es-object-atoms'
+151 silly reify ]
+152 silly reify mark deleted [
+152 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/es-set-tostringtag'
+152 silly reify ]
+153 silly reify mark deleted [
+153 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/es-shim-unscopables'
+153 silly reify ]
+154 silly reify mark deleted [
+154 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/es-to-primitive'
+154 silly reify ]
+155 silly reify mark deleted [
+155 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/escape-string-regexp'
+155 silly reify ]
+156 silly reify mark deleted [
+156 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint',
+156 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/.bin/eslint'
+156 silly reify ]
+157 silly reify mark deleted [
+157 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-config-next'
+157 silly reify ]
+158 silly reify mark deleted [
+158 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-import-resolver-node'
+158 silly reify ]
+159 silly reify mark deleted [
+159 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-import-resolver-node/node_modules/debug'
+159 silly reify ]
+160 silly reify mark deleted [
+160 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-import-resolver-typescript'
+160 silly reify ]
+161 silly reify mark deleted [
+161 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-module-utils'
+161 silly reify ]
+162 silly reify mark deleted [
+162 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-module-utils/node_modules/debug'
+162 silly reify ]
+163 silly reify mark deleted [
+163 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-plugin-import'
+163 silly reify ]
+164 silly reify mark deleted [
+164 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-plugin-import/node_modules/debug'
+164 silly reify ]
+165 silly reify mark deleted [
+165 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-plugin-import/node_modules/semver',
+165 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-plugin-import/node_modules/.bin/semver'
+165 silly reify ]
+166 silly reify mark deleted [
+166 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-plugin-jsx-a11y'
+166 silly reify ]
+167 silly reify mark deleted [
+167 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-plugin-react'
+167 silly reify ]
+168 silly reify mark deleted [
+168 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-plugin-react-hooks'
+168 silly reify ]
+169 silly reify mark deleted [
+169 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-plugin-react/node_modules/resolve',
+169 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-plugin-react/node_modules/.bin/resolve'
+169 silly reify ]
+170 silly reify mark deleted [
+170 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-plugin-react/node_modules/semver',
+170 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-plugin-react/node_modules/.bin/semver'
+170 silly reify ]
+171 silly reify mark deleted [
+171 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-scope'
+171 silly reify ]
+172 silly reify mark deleted [
+172 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/eslint-visitor-keys'
+172 silly reify ]
+173 silly reify mark deleted [
+173 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/espree'
+173 silly reify ]
+174 silly reify mark deleted [
+174 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/esquery'
+174 silly reify ]
+175 silly reify mark deleted [
+175 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/esrecurse'
+175 silly reify ]
+176 silly reify mark deleted [
+176 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/estraverse'
+176 silly reify ]
+177 silly reify mark deleted [
+177 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/esutils'
+177 silly reify ]
+178 silly reify mark deleted [
+178 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/fast-deep-equal'
+178 silly reify ]
+179 silly reify mark deleted [
+179 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/fast-glob'
+179 silly reify ]
+180 silly reify mark deleted [
+180 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/fast-glob/node_modules/glob-parent'
+180 silly reify ]
+181 silly reify mark deleted [
+181 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/fast-json-stable-stringify'
+181 silly reify ]
+182 silly reify mark deleted [
+182 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/fast-levenshtein'
+182 silly reify ]
+183 silly reify mark deleted [
+183 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/fastq'
+183 silly reify ]
+184 silly reify mark deleted [
+184 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/file-entry-cache'
+184 silly reify ]
+185 silly reify mark deleted [
+185 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/fill-range'
+185 silly reify ]
+186 silly reify mark deleted [
+186 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/find-up'
+186 silly reify ]
+187 silly reify mark deleted [
+187 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/flat-cache'
+187 silly reify ]
+188 silly reify mark deleted [
+188 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/flatted'
+188 silly reify ]
+189 silly reify mark deleted [
+189 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/for-each'
+189 silly reify ]
+190 silly reify mark deleted [
+190 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/function-bind'
+190 silly reify ]
+191 silly reify mark deleted [
+191 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/function.prototype.name'
+191 silly reify ]
+192 silly reify mark deleted [
+192 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/functions-have-names'
+192 silly reify ]
+193 silly reify mark deleted [
+193 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/generator-function'
+193 silly reify ]
+194 silly reify mark deleted [
+194 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/get-intrinsic'
+194 silly reify ]
+195 silly reify mark deleted [
+195 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/get-proto'
+195 silly reify ]
+196 silly reify mark deleted [
+196 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/get-symbol-description'
+196 silly reify ]
+197 silly reify mark deleted [
+197 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/get-tsconfig'
+197 silly reify ]
+198 silly reify mark deleted [
+198 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/glob-parent'
+198 silly reify ]
+199 silly reify mark deleted [
+199 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/globals'
+199 silly reify ]
+200 silly reify mark deleted [
+200 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/globalthis'
+200 silly reify ]
+201 silly reify mark deleted [
+201 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/gopd'
+201 silly reify ]
+202 silly reify mark deleted [
+202 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/graceful-fs'
+202 silly reify ]
+203 silly reify mark deleted [
+203 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/graphemer'
+203 silly reify ]
+204 silly reify mark deleted [
+204 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/has-bigints'
+204 silly reify ]
+205 silly reify mark deleted [
+205 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/has-flag'
+205 silly reify ]
+206 silly reify mark deleted [
+206 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/has-property-descriptors'
+206 silly reify ]
+207 silly reify mark deleted [
+207 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/has-proto'
+207 silly reify ]
+208 silly reify mark deleted [
+208 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/has-symbols'
+208 silly reify ]
+209 silly reify mark deleted [
+209 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/has-tostringtag'
+209 silly reify ]
+210 silly reify mark deleted [
+210 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/hasown'
+210 silly reify ]
+211 silly reify mark deleted [
+211 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/ignore'
+211 silly reify ]
+212 silly reify mark deleted [
+212 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/import-fresh'
+212 silly reify ]
+213 silly reify mark deleted [
+213 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/imurmurhash'
+213 silly reify ]
+214 silly reify mark deleted [
+214 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/internal-slot'
+214 silly reify ]
+215 silly reify mark deleted [
+215 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-array-buffer'
+215 silly reify ]
+216 silly reify mark deleted [
+216 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-async-function'
+216 silly reify ]
+217 silly reify mark deleted [
+217 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-bigint'
+217 silly reify ]
+218 silly reify mark deleted [
+218 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-boolean-object'
+218 silly reify ]
+219 silly reify mark deleted [
+219 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-bun-module'
+219 silly reify ]
+220 silly reify mark deleted [
+220 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-callable'
+220 silly reify ]
+221 silly reify mark deleted [
+221 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-core-module'
+221 silly reify ]
+222 silly reify mark deleted [
+222 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-data-view'
+222 silly reify ]
+223 silly reify mark deleted [
+223 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-date-object'
+223 silly reify ]
+224 silly reify mark deleted [
+224 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-extglob'
+224 silly reify ]
+225 silly reify mark deleted [
+225 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-finalizationregistry'
+225 silly reify ]
+226 silly reify mark deleted [
+226 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-generator-function'
+226 silly reify ]
+227 silly reify mark deleted [
+227 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-glob'
+227 silly reify ]
+228 silly reify mark deleted [
+228 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-map'
+228 silly reify ]
+229 silly reify mark deleted [
+229 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-negative-zero'
+229 silly reify ]
+230 silly reify mark deleted [
+230 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-number'
+230 silly reify ]
+231 silly reify mark deleted [
+231 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-number-object'
+231 silly reify ]
+232 silly reify mark deleted [
+232 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-regex'
+232 silly reify ]
+233 silly reify mark deleted [
+233 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-set'
+233 silly reify ]
+234 silly reify mark deleted [
+234 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-shared-array-buffer'
+234 silly reify ]
+235 silly reify mark deleted [
+235 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-string'
+235 silly reify ]
+236 silly reify mark deleted [
+236 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-symbol'
+236 silly reify ]
+237 silly reify mark deleted [
+237 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-typed-array'
+237 silly reify ]
+238 silly reify mark deleted [
+238 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-weakmap'
+238 silly reify ]
+239 silly reify mark deleted [
+239 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-weakref'
+239 silly reify ]
+240 silly reify mark deleted [
+240 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/is-weakset'
+240 silly reify ]
+241 silly reify mark deleted [
+241 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/isarray'
+241 silly reify ]
+242 silly reify mark deleted [
+242 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/isexe'
+242 silly reify ]
+243 silly reify mark deleted [
+243 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/iterator.prototype'
+243 silly reify ]
+244 silly reify mark deleted [
+244 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/jiti',
+244 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/.bin/jiti'
+244 silly reify ]
+245 silly reify mark deleted [
+245 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/js-tokens'
+245 silly reify ]
+246 silly reify mark deleted [
+246 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/js-yaml',
+246 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/.bin/js-yaml'
+246 silly reify ]
+247 silly reify mark deleted [
+247 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/json-buffer'
+247 silly reify ]
+248 silly reify mark deleted [
+248 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/json-schema-traverse'
+248 silly reify ]
+249 silly reify mark deleted [
+249 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/json-stable-stringify-without-jsonify'
+249 silly reify ]
+250 silly reify mark deleted [
+250 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/json5',
+250 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/.bin/json5'
+250 silly reify ]
+251 silly reify mark deleted [
+251 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/jsx-ast-utils'
+251 silly reify ]
+252 silly reify mark deleted [
+252 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/keyv'
+252 silly reify ]
+253 silly reify mark deleted [
+253 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/language-subtag-registry'
+253 silly reify ]
+254 silly reify mark deleted [
+254 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/language-tags'
+254 silly reify ]
+255 silly reify mark deleted [
+255 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/levn'
+255 silly reify ]
+256 silly reify mark deleted [
+256 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss'
+256 silly reify ]
+257 silly reify mark deleted [
+257 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-darwin-arm64'
+257 silly reify ]
+258 silly reify mark deleted [
+258 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-darwin-x64'
+258 silly reify ]
+259 silly reify mark deleted [
+259 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-freebsd-x64'
+259 silly reify ]
+260 silly reify mark deleted [
+260 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-linux-arm-gnueabihf'
+260 silly reify ]
+261 silly reify mark deleted [
+261 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-linux-arm64-gnu'
+261 silly reify ]
+262 silly reify mark deleted [
+262 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-linux-arm64-musl'
+262 silly reify ]
+263 silly reify mark deleted [
+263 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-linux-x64-gnu'
+263 silly reify ]
+264 silly reify mark deleted [
+264 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-linux-x64-musl'
+264 silly reify ]
+265 silly reify mark deleted [
+265 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-win32-arm64-msvc'
+265 silly reify ]
+266 silly reify mark deleted [
+266 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lightningcss-win32-x64-msvc'
+266 silly reify ]
+267 silly reify mark deleted [
+267 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/locate-path'
+267 silly reify ]
+268 silly reify mark deleted [
+268 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/lodash.merge'
+268 silly reify ]
+269 silly reify mark deleted [
+269 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/loose-envify',
+269 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/.bin/loose-envify'
+269 silly reify ]
+270 silly reify mark deleted [
+270 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/magic-string'
+270 silly reify ]
+271 silly reify mark deleted [
+271 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/math-intrinsics'
+271 silly reify ]
+272 silly reify mark deleted [
+272 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/merge2'
+272 silly reify ]
+273 silly reify mark deleted [
+273 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/micromatch'
+273 silly reify ]
+274 silly reify mark deleted [
+274 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/minimatch'
+274 silly reify ]
+275 silly reify mark deleted [
+275 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/minimist'
+275 silly reify ]
+276 silly reify mark deleted [
+276 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/minipass'
+276 silly reify ]
+277 silly reify mark deleted [
+277 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/minizlib'
+277 silly reify ]
+278 silly reify mark deleted [
+278 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/ms'
+278 silly reify ]
+279 silly reify mark deleted [
+279 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/napi-postinstall',
+279 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/.bin/napi-postinstall'
+279 silly reify ]
+280 silly reify mark deleted [
+280 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/natural-compare'
+280 silly reify ]
+281 silly reify mark deleted [
+281 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/object-assign'
+281 silly reify ]
+282 silly reify mark deleted [
+282 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/object-inspect'
+282 silly reify ]
+283 silly reify mark deleted [
+283 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/object-keys'
+283 silly reify ]
+284 silly reify mark deleted [
+284 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/object.assign'
+284 silly reify ]
+285 silly reify mark deleted [
+285 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/object.entries'
+285 silly reify ]
+286 silly reify mark deleted [
+286 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/object.fromentries'
+286 silly reify ]
+287 silly reify mark deleted [
+287 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/object.groupby'
+287 silly reify ]
+288 silly reify mark deleted [
+288 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/object.values'
+288 silly reify ]
+289 silly reify mark deleted [
+289 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/optionator'
+289 silly reify ]
+290 silly reify mark deleted [
+290 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/own-keys'
+290 silly reify ]
+291 silly reify mark deleted [
+291 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/p-limit'
+291 silly reify ]
+292 silly reify mark deleted [
+292 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/p-locate'
+292 silly reify ]
+293 silly reify mark deleted [
+293 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/parent-module'
+293 silly reify ]
+294 silly reify mark deleted [
+294 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/path-exists'
+294 silly reify ]
+295 silly reify mark deleted [
+295 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/path-key'
+295 silly reify ]
+296 silly reify mark deleted [
+296 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/path-parse'
+296 silly reify ]
+297 silly reify mark deleted [
+297 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/picomatch'
+297 silly reify ]
+298 silly reify mark deleted [
+298 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/possible-typed-array-names'
+298 silly reify ]
+299 silly reify mark deleted [
+299 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/postcss'
+299 silly reify ]
+300 silly reify mark deleted [
+300 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/prelude-ls'
+300 silly reify ]
+301 silly reify mark deleted [
+301 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/prop-types'
+301 silly reify ]
+302 silly reify mark deleted [
+302 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/punycode'
+302 silly reify ]
+303 silly reify mark deleted [
+303 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/queue-microtask'
+303 silly reify ]
+304 silly reify mark deleted [
+304 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/react-is'
+304 silly reify ]
+305 silly reify mark deleted [
+305 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/reflect.getprototypeof'
+305 silly reify ]
+306 silly reify mark deleted [
+306 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/regexp.prototype.flags'
+306 silly reify ]
+307 silly reify mark deleted [
+307 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/resolve',
+307 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/.bin/resolve'
+307 silly reify ]
+308 silly reify mark deleted [
+308 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/resolve-from'
+308 silly reify ]
+309 silly reify mark deleted [
+309 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/resolve-pkg-maps'
+309 silly reify ]
+310 silly reify mark deleted [
+310 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/reusify'
+310 silly reify ]
+311 silly reify mark deleted [
+311 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/run-parallel'
+311 silly reify ]
+312 silly reify mark deleted [
+312 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/safe-array-concat'
+312 silly reify ]
+313 silly reify mark deleted [
+313 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/safe-push-apply'
+313 silly reify ]
+314 silly reify mark deleted [
+314 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/safe-regex-test'
+314 silly reify ]
+315 silly reify mark deleted [
+315 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/set-function-length'
+315 silly reify ]
+316 silly reify mark deleted [
+316 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/set-function-name'
+316 silly reify ]
+317 silly reify mark deleted [
+317 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/set-proto'
+317 silly reify ]
+318 silly reify mark deleted [
+318 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/shebang-command'
+318 silly reify ]
+319 silly reify mark deleted [
+319 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/shebang-regex'
+319 silly reify ]
+320 silly reify mark deleted [
+320 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/side-channel'
+320 silly reify ]
+321 silly reify mark deleted [
+321 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/side-channel-list'
+321 silly reify ]
+322 silly reify mark deleted [
+322 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/side-channel-map'
+322 silly reify ]
+323 silly reify mark deleted [
+323 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/side-channel-weakmap'
+323 silly reify ]
+324 silly reify mark deleted [
+324 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/stable-hash'
+324 silly reify ]
+325 silly reify mark deleted [
+325 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/stop-iteration-iterator'
+325 silly reify ]
+326 silly reify mark deleted [
+326 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/string.prototype.includes'
+326 silly reify ]
+327 silly reify mark deleted [
+327 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/string.prototype.matchall'
+327 silly reify ]
+328 silly reify mark deleted [
+328 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/string.prototype.repeat'
+328 silly reify ]
+329 silly reify mark deleted [
+329 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/string.prototype.trim'
+329 silly reify ]
+330 silly reify mark deleted [
+330 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/string.prototype.trimend'
+330 silly reify ]
+331 silly reify mark deleted [
+331 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/string.prototype.trimstart'
+331 silly reify ]
+332 silly reify mark deleted [
+332 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/strip-bom'
+332 silly reify ]
+333 silly reify mark deleted [
+333 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/strip-json-comments'
+333 silly reify ]
+334 silly reify mark deleted [
+334 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/supports-color'
+334 silly reify ]
+335 silly reify mark deleted [
+335 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/supports-preserve-symlinks-flag'
+335 silly reify ]
+336 silly reify mark deleted [
+336 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/tailwindcss'
+336 silly reify ]
+337 silly reify mark deleted [
+337 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/tapable'
+337 silly reify ]
+338 silly reify mark deleted [
+338 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/tar'
+338 silly reify ]
+339 silly reify mark deleted [
+339 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/tinyglobby'
+339 silly reify ]
+340 silly reify mark deleted [
+340 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/tinyglobby/node_modules/fdir'
+340 silly reify ]
+341 silly reify mark deleted [
+341 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/tinyglobby/node_modules/picomatch'
+341 silly reify ]
+342 silly reify mark deleted [
+342 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/to-regex-range'
+342 silly reify ]
+343 silly reify mark deleted [
+343 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/ts-api-utils'
+343 silly reify ]
+344 silly reify mark deleted [
+344 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/tsconfig-paths'
+344 silly reify ]
+345 silly reify mark deleted [
+345 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/type-check'
+345 silly reify ]
+346 silly reify mark deleted [
+346 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/typed-array-buffer'
+346 silly reify ]
+347 silly reify mark deleted [
+347 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/typed-array-byte-length'
+347 silly reify ]
+348 silly reify mark deleted [
+348 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/typed-array-byte-offset'
+348 silly reify ]
+349 silly reify mark deleted [
+349 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/typed-array-length'
+349 silly reify ]
+350 silly reify mark deleted [
+350 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/typescript',
+350 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/.bin/tsc',
+350 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/.bin/tsserver'
+350 silly reify ]
+351 silly reify mark deleted [
+351 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/unbox-primitive'
+351 silly reify ]
+352 silly reify mark deleted [
+352 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/undici-types'
+352 silly reify ]
+353 silly reify mark deleted [
+353 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/unrs-resolver'
+353 silly reify ]
+354 silly reify mark deleted [
+354 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/uri-js'
+354 silly reify ]
+355 silly reify mark deleted [
+355 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/which',
+355 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/.bin/node-which'
+355 silly reify ]
+356 silly reify mark deleted [
+356 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/which-boxed-primitive'
+356 silly reify ]
+357 silly reify mark deleted [
+357 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/which-builtin-type'
+357 silly reify ]
+358 silly reify mark deleted [
+358 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/which-collection'
+358 silly reify ]
+359 silly reify mark deleted [
+359 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/which-typed-array'
+359 silly reify ]
+360 silly reify mark deleted [
+360 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/word-wrap'
+360 silly reify ]
+361 silly reify mark deleted [
+361 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/yallist'
+361 silly reify ]
+362 silly reify mark deleted [
+362 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/yocto-queue'
+362 silly reify ]
+363 silly audit bulk request {
+363 silly audit   '@emnapi/runtime': [ '1.5.0' ],
+363 silly audit   '@img/colour': [ '1.0.0' ],
+363 silly audit   '@img/sharp-darwin-arm64': [ '0.34.4' ],
+363 silly audit   '@img/sharp-darwin-x64': [ '0.34.4' ],
+363 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.3' ],
+363 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.3' ],
+363 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.3' ],
+363 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.3' ],
+363 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.3' ],
+363 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.3' ],
+363 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.3' ],
+363 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.3' ],
+363 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.3' ],
+363 silly audit   '@img/sharp-linux-arm': [ '0.34.4' ],
+363 silly audit   '@img/sharp-linux-arm64': [ '0.34.4' ],
+363 silly audit   '@img/sharp-linux-ppc64': [ '0.34.4' ],
+363 silly audit   '@img/sharp-linux-s390x': [ '0.34.4' ],
+363 silly audit   '@img/sharp-linux-x64': [ '0.34.4' ],
+363 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.4' ],
+363 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.4' ],
+363 silly audit   '@img/sharp-wasm32': [ '0.34.4' ],
+363 silly audit   '@img/sharp-win32-arm64': [ '0.34.4' ],
+363 silly audit   '@img/sharp-win32-ia32': [ '0.34.4' ],
+363 silly audit   '@img/sharp-win32-x64': [ '0.34.4' ],
+363 silly audit   '@next/env': [ '15.5.4' ],
+363 silly audit   '@next/swc-darwin-arm64': [ '15.5.4' ],
+363 silly audit   '@next/swc-darwin-x64': [ '15.5.4' ],
+363 silly audit   '@next/swc-linux-arm64-gnu': [ '15.5.4' ],
+363 silly audit   '@next/swc-linux-arm64-musl': [ '15.5.4' ],
+363 silly audit   '@next/swc-linux-x64-gnu': [ '15.5.4' ],
+363 silly audit   '@next/swc-linux-x64-musl': [ '15.5.4' ],
+363 silly audit   '@next/swc-win32-arm64-msvc': [ '15.5.4' ],
+363 silly audit   '@next/swc-win32-x64-msvc': [ '15.5.4' ],
+363 silly audit   '@swc/helpers': [ '0.5.15' ],
+363 silly audit   'caniuse-lite': [ '1.0.30001750' ],
+363 silly audit   'client-only': [ '0.0.1' ],
+363 silly audit   'detect-libc': [ '2.1.2' ],
+363 silly audit   semver: [ '7.7.3' ],
+363 silly audit   nanoid: [ '3.3.11' ],
+363 silly audit   next: [ '15.5.4' ],
+363 silly audit   postcss: [ '8.4.31' ],
+363 silly audit   picocolors: [ '1.1.1' ],
+363 silly audit   react: [ '19.2.0' ],
+363 silly audit   'react-dom': [ '19.2.0' ],
+363 silly audit   scheduler: [ '0.27.0' ],
+363 silly audit   sharp: [ '0.34.4' ],
+363 silly audit   'source-map-js': [ '1.2.1' ],
+363 silly audit   'styled-jsx': [ '5.1.6' ],
+363 silly audit   tslib: [ '2.8.1' ]
+363 silly audit }
+364 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-win32-x64-msvc
+365 silly reify mark deleted [
+365 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-win32-x64-msvc'
+365 silly reify ]
+366 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-win32-arm64-msvc
+367 silly reify mark deleted [
+367 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-win32-arm64-msvc'
+367 silly reify ]
+368 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-linux-arm64-musl
+369 silly reify mark deleted [
+369 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-linux-arm64-musl'
+369 silly reify ]
+370 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-linux-arm64-gnu
+371 silly reify mark deleted [
+371 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-linux-arm64-gnu'
+371 silly reify ]
+372 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-darwin-x64
+373 silly reify mark deleted [
+373 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-darwin-x64'
+373 silly reify ]
+374 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-darwin-arm64
+375 silly reify mark deleted [
+375 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@next/swc-darwin-arm64'
+375 silly reify ]
+376 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-x64
+377 silly reify mark deleted [
+377 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-x64'
+377 silly reify ]
+378 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-ia32
+379 silly reify mark deleted [
+379 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-ia32'
+379 silly reify ]
+380 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-arm64
+381 silly reify mark deleted [
+381 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-win32-arm64'
+381 silly reify ]
+382 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-wasm32
+383 silly reify mark deleted [
+383 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-wasm32'
+383 silly reify ]
+384 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linuxmusl-arm64
+385 silly reify mark deleted [
+385 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linuxmusl-arm64'
+385 silly reify ]
+386 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-s390x
+387 silly reify mark deleted [
+387 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-s390x'
+387 silly reify ]
+388 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-ppc64
+389 silly reify mark deleted [
+389 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-ppc64'
+389 silly reify ]
+390 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-arm64
+391 silly reify mark deleted [
+391 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-arm64'
+391 silly reify ]
+392 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-arm
+393 silly reify mark deleted [
+393 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-linux-arm'
+393 silly reify ]
+394 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linuxmusl-arm64
+395 silly reify mark deleted [
+395 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+395 silly reify ]
+396 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-s390x
+397 silly reify mark deleted [
+397 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-s390x'
+397 silly reify ]
+398 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-ppc64
+399 silly reify mark deleted [
+399 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-ppc64'
+399 silly reify ]
+400 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-arm64
+401 silly reify mark deleted [
+401 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-arm64'
+401 silly reify ]
+402 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-arm
+403 silly reify mark deleted [
+403 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-linux-arm'
+403 silly reify ]
+404 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-darwin-x64
+405 silly reify mark deleted [
+405 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-darwin-x64'
+405 silly reify ]
+406 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-darwin-arm64
+407 silly reify mark deleted [
+407 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-libvips-darwin-arm64'
+407 silly reify ]
+408 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-darwin-x64
+409 silly reify mark deleted [
+409 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-darwin-x64'
+409 silly reify ]
+410 verbose reify failed optional dependency /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-darwin-arm64
+411 silly reify mark deleted [
+411 silly reify   '/home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs/node_modules/@img/sharp-darwin-arm64'
+411 silly reify ]
+412 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 2953ms
+413 silly audit report {}
+414 info run sharp@0.34.4 install node_modules/sharp node install/check.js
+415 info run sharp@0.34.4 install { code: 0, signal: null }
+416 silly ADD
+417 silly ADD
+418 silly ADD
+419 silly ADD
+420 silly ADD
+421 silly ADD
+422 silly ADD
+423 silly ADD
+424 silly ADD
+425 silly ADD
+426 silly ADD
+427 silly ADD
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD
+432 silly ADD
+433 silly ADD
+434 silly ADD node_modules/tslib
+435 silly ADD
+436 silly ADD
+437 silly ADD
+438 silly ADD
+439 silly ADD node_modules/picomatch
+440 silly ADD node_modules/fdir
+441 silly ADD
+442 silly ADD
+443 silly ADD
+444 silly ADD
+445 silly ADD
+446 silly ADD node_modules/styled-jsx
+447 silly ADD
+448 silly ADD
+449 silly ADD
+450 silly ADD
+451 silly ADD
+452 silly ADD
+453 silly ADD
+454 silly ADD
+455 silly ADD
+456 silly ADD
+457 silly ADD node_modules/source-map-js
+458 silly ADD
+459 silly ADD
+460 silly ADD
+461 silly ADD
+462 silly ADD
+463 silly ADD
+464 silly ADD node_modules/sharp
+465 silly ADD
+466 silly ADD
+467 silly ADD
+468 silly ADD node_modules/semver
+469 silly ADD node_modules/scheduler
+470 silly ADD
+471 silly ADD
+472 silly ADD
+473 silly ADD
+474 silly ADD
+475 silly ADD
+476 silly ADD
+477 silly ADD
+478 silly ADD
+479 silly ADD
+480 silly ADD
+481 silly ADD node_modules/react-dom
+482 silly ADD node_modules/react
+483 silly ADD
+484 silly ADD
+485 silly ADD
+486 silly ADD
+487 silly ADD
+488 silly ADD
+489 silly ADD
+490 silly ADD node_modules/picocolors
+491 silly ADD
+492 silly ADD
+493 silly ADD
+494 silly ADD
+495 silly ADD
+496 silly ADD
+497 silly ADD
+498 silly ADD
+499 silly ADD
+500 silly ADD
+501 silly ADD
+502 silly ADD
+503 silly ADD
+504 silly ADD
+505 silly ADD
+506 silly ADD
+507 silly ADD node_modules/next
+508 silly ADD node_modules/next/node_modules/postcss
+509 silly ADD
+510 silly ADD
+511 silly ADD node_modules/nanoid
+512 silly ADD
+513 silly ADD
+514 silly ADD
+515 silly ADD
+516 silly ADD
+517 silly ADD
+518 silly ADD
+519 silly ADD
+520 silly ADD
+521 silly ADD
+522 silly ADD
+523 silly ADD
+524 silly ADD
+525 silly ADD
+526 silly ADD
+527 silly ADD
+528 silly ADD
+529 silly ADD
+530 silly ADD
+531 silly ADD
+532 silly ADD
+533 silly ADD
+534 silly ADD
+535 silly ADD
+536 silly ADD
+537 silly ADD
+538 silly ADD
+539 silly ADD
+540 silly ADD
+541 silly ADD
+542 silly ADD
+543 silly ADD
+544 silly ADD
+545 silly ADD
+546 silly ADD
+547 silly ADD
+548 silly ADD
+549 silly ADD
+550 silly ADD
+551 silly ADD
+552 silly ADD
+553 silly ADD
+554 silly ADD
+555 silly ADD
+556 silly ADD
+557 silly ADD
+558 silly ADD
+559 silly ADD
+560 silly ADD
+561 silly ADD
+562 silly ADD
+563 silly ADD
+564 silly ADD
+565 silly ADD
+566 silly ADD
+567 silly ADD
+568 silly ADD
+569 silly ADD
+570 silly ADD
+571 silly ADD
+572 silly ADD
+573 silly ADD
+574 silly ADD
+575 silly ADD
+576 silly ADD
+577 silly ADD
+578 silly ADD
+579 silly ADD
+580 silly ADD
+581 silly ADD
+582 silly ADD
+583 silly ADD
+584 silly ADD
+585 silly ADD
+586 silly ADD
+587 silly ADD
+588 silly ADD
+589 silly ADD
+590 silly ADD
+591 silly ADD
+592 silly ADD
+593 silly ADD
+594 silly ADD
+595 silly ADD
+596 silly ADD
+597 silly ADD
+598 silly ADD
+599 silly ADD
+600 silly ADD
+601 silly ADD
+602 silly ADD
+603 silly ADD
+604 silly ADD
+605 silly ADD
+606 silly ADD
+607 silly ADD
+608 silly ADD
+609 silly ADD
+610 silly ADD
+611 silly ADD node_modules/glob-parent
+612 silly ADD
+613 silly ADD
+614 silly ADD
+615 silly ADD
+616 silly ADD
+617 silly ADD
+618 silly ADD
+619 silly ADD
+620 silly ADD
+621 silly ADD
+622 silly ADD node_modules/semver
+623 silly ADD node_modules/resolve
+624 silly ADD
+625 silly ADD
+626 silly ADD node_modules/semver
+627 silly ADD node_modules/debug
+628 silly ADD
+629 silly ADD node_modules/debug
+630 silly ADD
+631 silly ADD
+632 silly ADD node_modules/debug
+633 silly ADD
+634 silly ADD
+635 silly ADD
+636 silly ADD
+637 silly ADD
+638 silly ADD
+639 silly ADD
+640 silly ADD
+641 silly ADD
+642 silly ADD
+643 silly ADD
+644 silly ADD
+645 silly ADD
+646 silly ADD
+647 silly ADD
+648 silly ADD node_modules/detect-libc
+649 silly ADD
+650 silly ADD
+651 silly ADD
+652 silly ADD
+653 silly ADD
+654 silly ADD
+655 silly ADD
+656 silly ADD
+657 silly ADD
+658 silly ADD
+659 silly ADD
+660 silly ADD
+661 silly ADD
+662 silly ADD node_modules/client-only
+663 silly ADD
+664 silly ADD
+665 silly ADD node_modules/caniuse-lite
+666 silly ADD
+667 silly ADD
+668 silly ADD
+669 silly ADD
+670 silly ADD
+671 silly ADD
+672 silly ADD
+673 silly ADD
+674 silly ADD
+675 silly ADD
+676 silly ADD
+677 silly ADD
+678 silly ADD
+679 silly ADD
+680 silly ADD
+681 silly ADD
+682 silly ADD
+683 silly ADD
+684 silly ADD
+685 silly ADD
+686 silly ADD
+687 silly ADD
+688 silly ADD
+689 silly ADD
+690 silly ADD
+691 silly ADD
+692 silly ADD
+693 silly ADD
+694 silly ADD
+695 silly ADD
+696 silly ADD
+697 silly ADD
+698 silly ADD
+699 silly ADD
+700 silly ADD
+701 silly ADD
+702 silly ADD
+703 silly ADD
+704 silly ADD
+705 silly ADD
+706 silly ADD
+707 silly ADD
+708 silly ADD
+709 silly ADD
+710 silly ADD
+711 silly ADD
+712 silly ADD
+713 silly ADD
+714 silly ADD node_modules/minimatch
+715 silly ADD node_modules/glob-parent
+716 silly ADD node_modules/fast-glob
+717 silly ADD node_modules/brace-expansion
+718 silly ADD
+719 silly ADD
+720 silly ADD
+721 silly ADD
+722 silly ADD
+723 silly ADD
+724 silly ADD
+725 silly ADD node_modules/ignore
+726 silly ADD
+727 silly ADD
+728 silly ADD
+729 silly ADD
+730 silly ADD
+731 silly ADD
+732 silly ADD
+733 silly ADD
+734 silly ADD
+735 silly ADD
+736 silly ADD
+737 silly ADD
+738 silly ADD
+739 silly ADD
+740 silly ADD
+741 silly ADD
+742 silly ADD
+743 silly ADD
+744 silly ADD
+745 silly ADD
+746 silly ADD
+747 silly ADD
+748 silly ADD node_modules/@swc/helpers
+749 silly ADD
+750 silly ADD
+751 silly ADD
+752 silly ADD
+753 silly ADD
+754 silly ADD
+755 silly ADD
+756 silly ADD
+757 silly ADD node_modules/@next/swc-linux-x64-musl
+758 silly ADD node_modules/@next/swc-linux-x64-gnu
+759 silly ADD
+760 silly ADD
+761 silly ADD
+762 silly ADD
+763 silly ADD
+764 silly ADD node_modules/@next/env
+765 silly ADD
+766 silly ADD
+767 silly ADD
+768 silly ADD
+769 silly ADD
+770 silly ADD
+771 silly ADD
+772 silly ADD
+773 silly ADD
+774 silly ADD
+775 silly ADD
+776 silly ADD node_modules/@img/sharp-linuxmusl-x64
+777 silly ADD
+778 silly ADD node_modules/@img/sharp-linux-x64
+779 silly ADD
+780 silly ADD
+781 silly ADD
+782 silly ADD
+783 silly ADD node_modules/@img/sharp-libvips-linuxmusl-x64
+784 silly ADD
+785 silly ADD node_modules/@img/sharp-libvips-linux-x64
+786 silly ADD
+787 silly ADD
+788 silly ADD
+789 silly ADD
+790 silly ADD
+791 silly ADD
+792 silly ADD
+793 silly ADD
+794 silly ADD node_modules/@img/colour
+795 silly ADD
+796 silly ADD
+797 silly ADD
+798 silly ADD
+799 silly ADD
+800 silly ADD
+801 silly ADD
+802 silly ADD
+803 silly ADD
+804 silly ADD
+805 silly ADD
+806 silly ADD
+807 silly ADD
+808 silly ADD node_modules/eslint-visitor-keys
+809 silly ADD
+810 silly ADD node_modules/@emnapi/runtime
+811 silly ADD
+812 silly ADD
+813 verbose cwd /home/orta/Documentos/GitHub/Calculadora-de-IVAs-e-ISRs
+814 verbose os Linux 6.12.51
+815 verbose node v20.19.5
+816 verbose npm  v10.8.2
+817 verbose exit 0
+818 info ok
