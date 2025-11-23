@@ -33,7 +33,7 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
-          <Calculadora label1="Importe" label2="Total"/>
+          {/*<Calculadora label1="Importe" label2="Total"/>*/}
           <Calculadora label1="Total" label2="Importe"/>
         </div>
       </div>
